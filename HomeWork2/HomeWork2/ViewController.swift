@@ -21,7 +21,6 @@ class ViewController: UIViewController {
     }
     //MARK: - Methods
     private func configureButtons(){
-        
         declineBtn.layer.cornerRadius = declineBtn.layer.frame.width / 2
         declineBtn.backgroundColor = UIColor(red: 196/255, green: 132/255, blue: 153/255, alpha: 1.0)
         declineBtn.tintColor = .white
@@ -30,7 +29,6 @@ class ViewController: UIViewController {
         acceptBtn.backgroundColor = UIColor(red: 196/255, green: 132/255, blue: 153/255, alpha: 1.0)
         acceptBtn.tintColor = .white
         
-        
         let config = UIImage.SymbolConfiguration(pointSize: 35)
         let image1 = UIImage(systemName: "phone.down.fill", withConfiguration: config)
         let image2 = UIImage(systemName: "phone.fill", withConfiguration: config)
@@ -38,5 +36,3 @@ class ViewController: UIViewController {
         acceptBtn.setImage(image2, for: .normal)
         }
     }
-
-
